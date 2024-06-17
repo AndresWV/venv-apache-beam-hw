@@ -1,0 +1,18 @@
+[2024-06-17T14:41:51.597-0400] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-06-17T14:41:51.616-0400] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hello.first_task manual__2024-06-17T18:41:41.313888+00:00 [queued]>
+[2024-06-17T14:41:51.625-0400] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hello.first_task manual__2024-06-17T18:41:41.313888+00:00 [queued]>
+[2024-06-17T14:41:51.625-0400] {taskinstance.py:2306} INFO - Starting attempt 1 of 5
+[2024-06-17T14:41:51.637-0400] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): first_task> on 2024-06-17 18:41:41.313888+00:00
+[2024-06-17T14:41:51.642-0400] {standard_task_runner.py:63} INFO - Started process 201024 to run task
+[2024-06-17T14:41:51.646-0400] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'hello', 'first_task', 'manual__2024-06-17T18:41:41.313888+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/hello.py', '--cfg-path', '/tmp/tmpft4w10e7']
+[2024-06-17T14:41:51.647-0400] {standard_task_runner.py:91} INFO - Job 30: Subtask first_task
+[2024-06-17T14:41:51.684-0400] {task_command.py:426} INFO - Running <TaskInstance: hello.first_task manual__2024-06-17T18:41:41.313888+00:00 [running]> on host andres-IdeaPad-3-14ALC6
+[2024-06-17T14:41:51.742-0400] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='airflow@example.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='hello' AIRFLOW_CTX_TASK_ID='first_task' AIRFLOW_CTX_EXECUTION_DATE='2024-06-17T18:41:41.313888+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-06-17T18:41:41.313888+00:00'
+[2024-06-17T14:41:51.743-0400] {taskinstance.py:430} INFO - ::endgroup::
+[2024-06-17T14:41:51.743-0400] {logging_mixin.py:188} INFO - Hola Mundo
+[2024-06-17T14:41:51.743-0400] {python.py:237} INFO - Done. Returned value was: None
+[2024-06-17T14:41:51.744-0400] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-06-17T14:41:51.748-0400] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=hello, task_id=first_task, run_id=manual__2024-06-17T18:41:41.313888+00:00, execution_date=20240617T184141, start_date=20240617T184151, end_date=20240617T184151
+[2024-06-17T14:41:51.784-0400] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-06-17T14:41:51.797-0400] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-06-17T14:41:51.797-0400] {local_task_job_runner.py:222} INFO - ::endgroup::

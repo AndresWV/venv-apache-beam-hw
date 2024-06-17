@@ -1,0 +1,277 @@
+[2024-06-17T14:33:22.785-0400] {processor.py:161} INFO - Started process (PID=194972) to work on /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:33:22.786-0400] {processor.py:830} INFO - Processing file /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py for tasks to queue
+[2024-06-17T14:33:22.786-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:33:22.786-0400] {dagbag.py:545} INFO - Filling up the DagBag from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:33:22.790-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:33:22.789-0400] {dagbag.py:355} ERROR - Failed to import: /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py", line 34, in <module>
+    dag = DAG(
+          ^^^^
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/venv/lib/python3.12/site-packages/airflow/models/dag.py", line 580, in __init__
+    raise ValueError("DAG is missing the start_date parameter")
+ValueError: DAG is missing the start_date parameter
+[2024-06-17T14:33:22.791-0400] {processor.py:842} WARNING - No viable dags retrieved from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:33:22.816-0400] {processor.py:183} INFO - Processing /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py took 0.035 seconds
+[2024-06-17T14:33:57.066-0400] {processor.py:161} INFO - Started process (PID=195377) to work on /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:33:57.078-0400] {processor.py:830} INFO - Processing file /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py for tasks to queue
+[2024-06-17T14:33:57.079-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:33:57.078-0400] {dagbag.py:545} INFO - Filling up the DagBag from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:33:57.082-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:33:57.080-0400] {dagbag.py:355} ERROR - Failed to import: /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py", line 34, in <module>
+    dag = DAG(
+          ^^^^
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/venv/lib/python3.12/site-packages/airflow/models/dag.py", line 580, in __init__
+    raise ValueError("DAG is missing the start_date parameter")
+ValueError: DAG is missing the start_date parameter
+[2024-06-17T14:33:57.082-0400] {processor.py:842} WARNING - No viable dags retrieved from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:33:57.095-0400] {processor.py:183} INFO - Processing /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py took 0.033 seconds
+[2024-06-17T14:34:36.482-0400] {processor.py:161} INFO - Started process (PID=195799) to work on /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:34:36.494-0400] {processor.py:830} INFO - Processing file /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py for tasks to queue
+[2024-06-17T14:34:36.495-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:34:36.494-0400] {dagbag.py:545} INFO - Filling up the DagBag from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:34:36.498-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:34:36.497-0400] {dagbag.py:355} ERROR - Failed to import: /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py", line 34, in <module>
+    dag = DAG(
+          ^^^^
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/venv/lib/python3.12/site-packages/airflow/models/dag.py", line 580, in __init__
+    raise ValueError("DAG is missing the start_date parameter")
+ValueError: DAG is missing the start_date parameter
+[2024-06-17T14:34:36.499-0400] {processor.py:842} WARNING - No viable dags retrieved from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:34:36.513-0400] {processor.py:183} INFO - Processing /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py took 0.036 seconds
+[2024-06-17T14:35:18.168-0400] {processor.py:161} INFO - Started process (PID=196302) to work on /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:35:18.170-0400] {processor.py:830} INFO - Processing file /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py for tasks to queue
+[2024-06-17T14:35:18.171-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:35:18.171-0400] {dagbag.py:545} INFO - Filling up the DagBag from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:35:18.175-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:35:18.174-0400] {dagbag.py:355} ERROR - Failed to import: /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py", line 34, in <module>
+    dag = DAG(
+          ^^^^
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/venv/lib/python3.12/site-packages/airflow/models/dag.py", line 580, in __init__
+    raise ValueError("DAG is missing the start_date parameter")
+ValueError: DAG is missing the start_date parameter
+[2024-06-17T14:35:18.176-0400] {processor.py:842} WARNING - No viable dags retrieved from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:35:18.190-0400] {processor.py:183} INFO - Processing /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py took 0.027 seconds
+[2024-06-17T14:36:02.766-0400] {processor.py:161} INFO - Started process (PID=196823) to work on /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:36:02.777-0400] {processor.py:830} INFO - Processing file /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py for tasks to queue
+[2024-06-17T14:36:02.778-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:36:02.778-0400] {dagbag.py:545} INFO - Filling up the DagBag from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:36:02.782-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:36:02.780-0400] {dagbag.py:355} ERROR - Failed to import: /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py", line 34, in <module>
+    dag = DAG(
+          ^^^^
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/venv/lib/python3.12/site-packages/airflow/models/dag.py", line 580, in __init__
+    raise ValueError("DAG is missing the start_date parameter")
+ValueError: DAG is missing the start_date parameter
+[2024-06-17T14:36:02.782-0400] {processor.py:842} WARNING - No viable dags retrieved from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:36:02.796-0400] {processor.py:183} INFO - Processing /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py took 0.035 seconds
+[2024-06-17T14:36:46.662-0400] {processor.py:161} INFO - Started process (PID=197358) to work on /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:36:46.674-0400] {processor.py:830} INFO - Processing file /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py for tasks to queue
+[2024-06-17T14:36:46.675-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:36:46.675-0400] {dagbag.py:545} INFO - Filling up the DagBag from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:36:46.678-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:36:46.677-0400] {dagbag.py:355} ERROR - Failed to import: /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py", line 34, in <module>
+    dag = DAG(
+          ^^^^
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/venv/lib/python3.12/site-packages/airflow/models/dag.py", line 580, in __init__
+    raise ValueError("DAG is missing the start_date parameter")
+ValueError: DAG is missing the start_date parameter
+[2024-06-17T14:36:46.679-0400] {processor.py:842} WARNING - No viable dags retrieved from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:36:46.692-0400] {processor.py:183} INFO - Processing /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py took 0.034 seconds
+[2024-06-17T14:37:32.165-0400] {processor.py:161} INFO - Started process (PID=197897) to work on /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:37:32.166-0400] {processor.py:830} INFO - Processing file /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py for tasks to queue
+[2024-06-17T14:37:32.167-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:37:32.167-0400] {dagbag.py:545} INFO - Filling up the DagBag from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:37:32.171-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:37:32.169-0400] {dagbag.py:355} ERROR - Failed to import: /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py", line 34, in <module>
+    dag = DAG(
+          ^^^^
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/venv/lib/python3.12/site-packages/airflow/models/dag.py", line 580, in __init__
+    raise ValueError("DAG is missing the start_date parameter")
+ValueError: DAG is missing the start_date parameter
+[2024-06-17T14:37:32.171-0400] {processor.py:842} WARNING - No viable dags retrieved from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:37:32.191-0400] {processor.py:183} INFO - Processing /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py took 0.030 seconds
+[2024-06-17T14:38:16.214-0400] {processor.py:161} INFO - Started process (PID=198343) to work on /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:38:16.226-0400] {processor.py:830} INFO - Processing file /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py for tasks to queue
+[2024-06-17T14:38:16.228-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:38:16.227-0400] {dagbag.py:545} INFO - Filling up the DagBag from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:38:16.233-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:38:16.231-0400] {dagbag.py:355} ERROR - Failed to import: /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py", line 34, in <module>
+    dag = DAG(
+          ^^^^
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/venv/lib/python3.12/site-packages/airflow/models/dag.py", line 580, in __init__
+    raise ValueError("DAG is missing the start_date parameter")
+ValueError: DAG is missing the start_date parameter
+[2024-06-17T14:38:16.234-0400] {processor.py:842} WARNING - No viable dags retrieved from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:38:16.251-0400] {processor.py:183} INFO - Processing /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py took 0.042 seconds
+[2024-06-17T14:38:58.467-0400] {processor.py:161} INFO - Started process (PID=198816) to work on /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:38:58.479-0400] {processor.py:830} INFO - Processing file /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py for tasks to queue
+[2024-06-17T14:38:58.480-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:38:58.480-0400] {dagbag.py:545} INFO - Filling up the DagBag from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:38:58.483-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:38:58.482-0400] {dagbag.py:355} ERROR - Failed to import: /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py", line 34, in <module>
+    dag = DAG(
+          ^^^^
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/venv/lib/python3.12/site-packages/airflow/models/dag.py", line 580, in __init__
+    raise ValueError("DAG is missing the start_date parameter")
+ValueError: DAG is missing the start_date parameter
+[2024-06-17T14:38:58.484-0400] {processor.py:842} WARNING - No viable dags retrieved from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:38:58.497-0400] {processor.py:183} INFO - Processing /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py took 0.035 seconds
+[2024-06-17T14:39:43.802-0400] {processor.py:161} INFO - Started process (PID=199286) to work on /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:39:43.813-0400] {processor.py:830} INFO - Processing file /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py for tasks to queue
+[2024-06-17T14:39:43.814-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:39:43.814-0400] {dagbag.py:545} INFO - Filling up the DagBag from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:39:43.818-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:39:43.817-0400] {dagbag.py:355} ERROR - Failed to import: /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+Traceback (most recent call last):
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/venv/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py", line 40, in <module>
+    start_date=day_ago(2),
+               ^^^^^^^
+NameError: name 'day_ago' is not defined. Did you mean: 'days_ago'?
+[2024-06-17T14:39:43.818-0400] {processor.py:842} WARNING - No viable dags retrieved from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:39:43.832-0400] {processor.py:183} INFO - Processing /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py took 0.035 seconds
+[2024-06-17T14:40:06.660-0400] {processor.py:161} INFO - Started process (PID=199544) to work on /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:40:06.661-0400] {processor.py:830} INFO - Processing file /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py for tasks to queue
+[2024-06-17T14:40:06.662-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:40:06.661-0400] {dagbag.py:545} INFO - Filling up the DagBag from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:40:06.667-0400] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:40:06.742-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:40:06.741-0400] {override.py:1829} INFO - Created Permission View: can edit on DAG:hello
+[2024-06-17T14:40:06.749-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:40:06.749-0400] {override.py:1829} INFO - Created Permission View: can delete on DAG:hello
+[2024-06-17T14:40:06.755-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:40:06.754-0400] {override.py:1829} INFO - Created Permission View: can read on DAG:hello
+[2024-06-17T14:40:06.755-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:40:06.755-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-17T14:40:06.762-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:40:06.762-0400] {dag.py:3118} INFO - Creating ORM DAG for hello
+[2024-06-17T14:40:06.770-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:40:06.770-0400] {dag.py:3954} INFO - Setting next_dagrun for hello to 2024-06-15 00:00:00+00:00, run_after=2024-06-16 00:00:00+00:00
+[2024-06-17T14:40:06.870-0400] {processor.py:183} INFO - Processing /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py took 0.213 seconds
+[2024-06-17T14:40:29.218-0400] {processor.py:161} INFO - Started process (PID=199788) to work on /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:40:29.219-0400] {processor.py:830} INFO - Processing file /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py for tasks to queue
+[2024-06-17T14:40:29.219-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:40:29.219-0400] {dagbag.py:545} INFO - Filling up the DagBag from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:40:29.225-0400] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:40:29.231-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:40:29.231-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-17T14:40:29.245-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:40:29.245-0400] {dag.py:3954} INFO - Setting next_dagrun for hello to 2024-06-15 00:00:00+00:00, run_after=2024-06-16 00:00:00+00:00
+[2024-06-17T14:40:29.260-0400] {processor.py:183} INFO - Processing /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py took 0.047 seconds
+[2024-06-17T14:41:13.966-0400] {processor.py:161} INFO - Started process (PID=200351) to work on /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:41:13.977-0400] {processor.py:830} INFO - Processing file /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py for tasks to queue
+[2024-06-17T14:41:13.978-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:41:13.978-0400] {dagbag.py:545} INFO - Filling up the DagBag from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:41:13.983-0400] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:41:13.996-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:41:13.996-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-17T14:41:14.012-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:41:14.011-0400] {dag.py:3954} INFO - Setting next_dagrun for hello to 2024-06-15 00:00:00+00:00, run_after=2024-06-16 00:00:00+00:00
+[2024-06-17T14:41:14.029-0400] {processor.py:183} INFO - Processing /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py took 0.067 seconds
+[2024-06-17T14:41:49.889-0400] {processor.py:161} INFO - Started process (PID=200984) to work on /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:41:49.891-0400] {processor.py:830} INFO - Processing file /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py for tasks to queue
+[2024-06-17T14:41:49.892-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:41:49.892-0400] {dagbag.py:545} INFO - Filling up the DagBag from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:41:49.900-0400] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:41:49.919-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:41:49.919-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-17T14:41:49.937-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:41:49.937-0400] {dag.py:3954} INFO - Setting next_dagrun for hello to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-17T14:41:49.960-0400] {processor.py:183} INFO - Processing /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py took 0.078 seconds
+[2024-06-17T14:42:28.149-0400] {processor.py:161} INFO - Started process (PID=201673) to work on /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:42:28.151-0400] {processor.py:830} INFO - Processing file /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py for tasks to queue
+[2024-06-17T14:42:28.152-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:42:28.151-0400] {dagbag.py:545} INFO - Filling up the DagBag from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:42:28.157-0400] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:42:28.168-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:42:28.168-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-17T14:42:28.182-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:42:28.182-0400] {dag.py:3954} INFO - Setting next_dagrun for hello to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-17T14:42:28.197-0400] {processor.py:183} INFO - Processing /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py took 0.051 seconds
+[2024-06-17T14:43:11.587-0400] {processor.py:161} INFO - Started process (PID=202164) to work on /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:43:11.599-0400] {processor.py:830} INFO - Processing file /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py for tasks to queue
+[2024-06-17T14:43:11.600-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:43:11.599-0400] {dagbag.py:545} INFO - Filling up the DagBag from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:43:11.605-0400] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:43:11.616-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:43:11.616-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-17T14:43:11.629-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:43:11.629-0400] {dag.py:3954} INFO - Setting next_dagrun for hello to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-17T14:43:11.644-0400] {processor.py:183} INFO - Processing /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py took 0.061 seconds
+[2024-06-17T14:43:54.473-0400] {processor.py:161} INFO - Started process (PID=202722) to work on /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:43:54.484-0400] {processor.py:830} INFO - Processing file /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py for tasks to queue
+[2024-06-17T14:43:54.485-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:43:54.485-0400] {dagbag.py:545} INFO - Filling up the DagBag from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:43:54.490-0400] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:43:54.503-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:43:54.502-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-17T14:43:54.518-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:43:54.518-0400] {dag.py:3954} INFO - Setting next_dagrun for hello to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-17T14:43:54.534-0400] {processor.py:183} INFO - Processing /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py took 0.065 seconds
+[2024-06-17T14:44:37.317-0400] {processor.py:161} INFO - Started process (PID=203318) to work on /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:44:37.328-0400] {processor.py:830} INFO - Processing file /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py for tasks to queue
+[2024-06-17T14:44:37.329-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:44:37.329-0400] {dagbag.py:545} INFO - Filling up the DagBag from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:44:37.335-0400] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:44:37.346-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:44:37.346-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-17T14:44:37.360-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:44:37.359-0400] {dag.py:3954} INFO - Setting next_dagrun for hello to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-17T14:44:37.375-0400] {processor.py:183} INFO - Processing /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py took 0.063 seconds
+[2024-06-17T14:45:19.212-0400] {processor.py:161} INFO - Started process (PID=203824) to work on /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:45:19.223-0400] {processor.py:830} INFO - Processing file /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py for tasks to queue
+[2024-06-17T14:45:19.224-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:45:19.223-0400] {dagbag.py:545} INFO - Filling up the DagBag from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:45:19.229-0400] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:45:19.241-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:45:19.241-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-17T14:45:19.255-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:45:19.255-0400] {dag.py:3954} INFO - Setting next_dagrun for hello to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-17T14:45:19.271-0400] {processor.py:183} INFO - Processing /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py took 0.063 seconds
+[2024-06-17T14:45:58.820-0400] {processor.py:161} INFO - Started process (PID=204298) to work on /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:45:58.832-0400] {processor.py:830} INFO - Processing file /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py for tasks to queue
+[2024-06-17T14:45:58.832-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:45:58.832-0400] {dagbag.py:545} INFO - Filling up the DagBag from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:45:58.837-0400] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:45:58.849-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:45:58.849-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-17T14:45:58.863-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:45:58.862-0400] {dag.py:3954} INFO - Setting next_dagrun for hello to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-17T14:45:58.878-0400] {processor.py:183} INFO - Processing /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py took 0.062 seconds
+[2024-06-17T14:46:42.771-0400] {processor.py:161} INFO - Started process (PID=204783) to work on /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:46:42.782-0400] {processor.py:830} INFO - Processing file /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py for tasks to queue
+[2024-06-17T14:46:42.784-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:46:42.783-0400] {dagbag.py:545} INFO - Filling up the DagBag from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:46:42.789-0400] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:46:42.800-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:46:42.800-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-17T14:46:42.814-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:46:42.813-0400] {dag.py:3954} INFO - Setting next_dagrun for hello to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-17T14:46:42.828-0400] {processor.py:183} INFO - Processing /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py took 0.062 seconds
+[2024-06-17T14:47:23.888-0400] {processor.py:161} INFO - Started process (PID=205272) to work on /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:47:23.889-0400] {processor.py:830} INFO - Processing file /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py for tasks to queue
+[2024-06-17T14:47:23.890-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:47:23.890-0400] {dagbag.py:545} INFO - Filling up the DagBag from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:47:23.898-0400] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:47:23.910-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:47:23.910-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-17T14:47:23.925-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:47:23.925-0400] {dag.py:3954} INFO - Setting next_dagrun for hello to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-17T14:47:23.940-0400] {processor.py:183} INFO - Processing /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py took 0.058 seconds
+[2024-06-17T14:48:07.390-0400] {processor.py:161} INFO - Started process (PID=205736) to work on /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:48:07.402-0400] {processor.py:830} INFO - Processing file /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py for tasks to queue
+[2024-06-17T14:48:07.402-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:48:07.402-0400] {dagbag.py:545} INFO - Filling up the DagBag from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:48:07.407-0400] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:48:07.420-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:48:07.419-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-17T14:48:07.433-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:48:07.433-0400] {dag.py:3954} INFO - Setting next_dagrun for hello to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-17T14:48:07.449-0400] {processor.py:183} INFO - Processing /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py took 0.062 seconds
+[2024-06-17T14:48:49.518-0400] {processor.py:161} INFO - Started process (PID=206231) to work on /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:48:49.530-0400] {processor.py:830} INFO - Processing file /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py for tasks to queue
+[2024-06-17T14:48:49.531-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:48:49.530-0400] {dagbag.py:545} INFO - Filling up the DagBag from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:48:49.537-0400] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:48:49.548-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:48:49.548-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-17T14:48:49.562-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:48:49.561-0400] {dag.py:3954} INFO - Setting next_dagrun for hello to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-17T14:48:49.577-0400] {processor.py:183} INFO - Processing /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py took 0.064 seconds
+[2024-06-17T14:49:31.558-0400] {processor.py:161} INFO - Started process (PID=206873) to work on /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:49:31.558-0400] {processor.py:830} INFO - Processing file /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py for tasks to queue
+[2024-06-17T14:49:31.559-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:49:31.559-0400] {dagbag.py:545} INFO - Filling up the DagBag from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:49:31.564-0400] {processor.py:840} INFO - DAG(s) 'hello' retrieved from /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py
+[2024-06-17T14:49:31.575-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:49:31.575-0400] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-17T14:49:31.589-0400] {logging_mixin.py:188} INFO - [2024-06-17T14:49:31.588-0400] {dag.py:3954} INFO - Setting next_dagrun for hello to 2024-06-17 00:00:00+00:00, run_after=2024-06-18 00:00:00+00:00
+[2024-06-17T14:49:31.604-0400] {processor.py:183} INFO - Processing /home/andres/Documentos/data_engineer/Airflow - curso/Hello-World/airflow/dags/hello.py took 0.051 seconds
